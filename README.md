@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post. These are mostly things I learn by pairing with
 smart people at [Hashrocket](http://hashrocket.com/).
 
-_332 TILs and counting..._
+_344 TILs and counting..._
 
 ---
 
@@ -66,6 +66,7 @@ _332 TILs and counting..._
 ### Elixir
 
 - [Append To A Keyword List](elixir/append-to-a-keyword-list.md)
+- [Expose Internal Representation](elixir/expose-internal-representation.md)
 - [Replace Duplicates In A Keyword List](elixir/replace-duplicates-in-a-keyword-list.md)
 
 ### Git
@@ -95,6 +96,7 @@ _332 TILs and counting..._
 - [Reference A Commit Via Commit Message Pattern Matching](git/reference-a-commit-via-commit-message-pattern-matching.md)
 - [Renaming A Branch](git/renaming-a-branch.md)
 - [Resetting A Reset](git/resetting-a-reset.md)
+- [Show The diffstat Summary Of A Commit](git/show-the-diffstat-summary-of-a-commit.md)
 - [Single Key Presses in Interactive Mode](git/single-key-presses-in-interactive-mode.md)
 - [Staging Changes Within Vim](git/staging-changes-within-vim.md) 
 - [Staging Stashes Interactively](git/staging-stashes-interactively.md)
@@ -131,7 +133,9 @@ _332 TILs and counting..._
 
 ### Mac
 
+- [Clean Up Old Homebrew Files](mac/clean-up-old-homebrew-files.md)
 - [Default Screenshot Location](mac/default-screenshot-location.md)
+- [List All The Say Voices](mac/list-all-the-say-voices.md)
 
 ### PostgreSQL
 
@@ -171,6 +175,7 @@ _332 TILs and counting..._
 - [List All Rows In A Table](postgres/list-all-rows-in-a-table.md)
 - [List All Versions Of A Function](postgres/list-all-versions-of-a-function.md)
 - [List Available Schemas](postgres/list-available-schemas.md)
+- [List Connections To A Database](postgres/list-connections-to-a-database.md)
 - [List Database Users](postgres/list-database-users.md)
 - [Max Identifier Length Is 63 Bytes](postgres/max-identifier-length-is-63-bytes.md)
 - [pg Prefix Is Reserved For System Schemas](postgres/pg-prefix-is-reserved-for-system-schemas.md)
@@ -180,11 +185,13 @@ _332 TILs and counting..._
 - [Send A Command To psql](postgres/send-a-command-to-psql.md)
 - [Set Inclusion With hstore](postgres/set-inclusion-with-hstore.md)
 - [Set A Seed For The Random Number Generator](postgres/set-a-seed-for-the-random-number-generator.md)
+- [Sets With The Values Command](postgres/sets-with-the-values-command.md)
 - [Sleeping](postgres/sleeping.md)
 - [Special Math Operators](postgres/special-math-operators.md)
 - [String Contains Another String](postgres/string-contains-another-string.md)
 - [Temporarily Disable Triggers](postgres/temporarily-disable-triggers.md)
 - [Temporary Tables](postgres/temporary-tables.md)
+- [Terminating A Connection](postgres/terminating-a-connection.md)
 - [Timestamp Functions](postgres/timestamp-functions.md)
 - [Toggling The Pager In PSQL](postgres/toggling-the-pager-in-psql.md)
 - [Truncate All Rows](postgres/truncate-all-rows.md)
@@ -231,6 +238,7 @@ _332 TILs and counting..._
 - [Comparing Arrays In RSpec](ruby/comparing-arrays-in-rspec.md)
 - [Construct A Constant From A String](ruby/construct-a-constant-from-a-string.md)
 - [Create an Array of Stringed Numbers](ruby/create-an-array-of-stringed-numbers.md)
+- [Create Thumbnail Image For A PDF](ruby/create-thumbnail-image-for-a-pdf.md)
 - [Defaulting To Frozen String Literals](ruby/defaulting-to-frozen-string-literals.md)
 - [Destructuring Arrays In Blocks](ruby/destructuring-arrays-in-blocks.md)
 - [Disassemble Some Codes](ruby/disassemble-some-codes.md)
@@ -238,6 +246,7 @@ _332 TILs and counting..._
 - [Editing Code In Pry](ruby/editing-code-in-pry.md)
 - [Evaluating One-Off Commands](ruby/evaluating-one-off-commands.md)
 - [FactoryGirl Sequences](ruby/factory-girl-sequences.md)
+- [Fail](ruby/fail.md)
 - [Finding The Source of Ruby Methods](ruby/finding-the-source-of-ruby-methods.md)
 - [Identify Outdated Gems](ruby/identify-outdated-gems.md)
 - [If You Detect None](ruby/if-you-detect-none.md)
@@ -303,7 +312,6 @@ _332 TILs and counting..._
 - [Hexdump A Compiled File](unix/hexdump-a-compiled-file.md)
 - [Kill Everything Running On A Certain Port](unix/kill-everything-running-on-a-certain-port.md)
 - [Killing A Frozen SSH Session](unix/killing-a-frozen-ssh-session.md)
-- [List All The Say Voices](unix/list-all-the-say-voices.md)
 - [List All Users](unix/list-all-users.md)
 - [Only Show The Matches](unix/only-show-the-matches.md)
 - [Repeat Yourself](unix/repeat-yourself.md)
@@ -322,6 +330,7 @@ _332 TILs and counting..._
 - [Absolute And Relative Line Numbers](vim/absolute-and-relative-line-numbers.md)
 - [Add A File Without Loading It](vim/add-a-file-without-loading-it.md)
 - [Add Custom Dictionary Words](vim/add-custom-dictionary-words.md)
+- [Almost The End Of The Line](vim/almost-the-end-of-the-line.md)
 - [Alternate Files With vim-rails](vim/alternate-files-with-vim-rails.md)
 - [Amend Commits With Fugitive](vim/amend-commits-with-fugitive.md)
 - [Backspace Options](vim/backspace-options.md)
@@ -343,6 +352,7 @@ _332 TILs and counting..._
 - [Creating Non-Existent Directories](vim/creating-non-existent-directories.md)
 - [Delete Every Other Line](vim/delete-every-other-line.md)
 - [Delete Lines That Match A Pattern](vim/delete-lines-that-match-a-pattern.md)
+- [Deleting Buffers In BufExplorer](vim/deleting-buffers-in-bufexplorer.md)
 - [Deleting Directories Of Files From netrw](vim/deleting-directories-of-files-from-netrw.md)
 - [Difference Between :wq and :x](vim/difference-between-wq-and-x.md)
 - [Display Word Count Stats](vim/display-word-count-stats.md)
@@ -371,6 +381,7 @@ _332 TILs and counting..._
 - [NETRW Listing Styles](vim/netrw-listing-styles.md)
 - [Next Modified Buffer](vim/next-modified-buffer.md)
 - [Open an Unnamed Buffer](vim/open-an-unnamed-buffer.md)
+- [Open Routes File With vim-rails](vim/open-routes-file-with-vim-rails.md)
 - [Opening a URL](vim/opening-a-url.md)
 - [Opening Man Pages In Vim](vim/opening-man-pages-in-vim.md)
 - [Paste A Register From Insert Mode](vim/paste-a-register-from-insert-mode.md)
@@ -387,7 +398,7 @@ _332 TILs and counting..._
 - [Replace A Character](vim/replace-a-character.md)
 - [Reverse A Group Of Lines](vim/reverse-a-group-of-lines.md)
 - [Running Bundle With vim-bundler](vim/running-bundle-with-vim-bundler.md)
-- [Scrolling Relative to the Window](vim/scrolling-relative-to-the-window.md)
+- [Scrolling Relative to the Cursor](vim/scrolling-relative-to-the-cursor.md)
 - [Searching For Hex Digits](vim/searching-for-hex-digits.md)
 - [Set End Of Line Markers](vim/set-end-of-line-markers.md)
 - [Set Your Color Scheme](vim/set-your-color-scheme.md)
@@ -404,6 +415,12 @@ _332 TILs and counting..._
 - [Vim Without The Extras](vim/vim-without-the-extras.md)
 - [Whole Line Auto-Completion](vim/whole-line-auto-completion.md)
 - [Wrap With Some Room](vim/wrap-with-some-room.md)
+
+## Usage
+
+The `.vimrc` file for this project contains a function `CountTILs` that can
+be invoked with `<leader>c`. This will do a substitution count of the
+current number of TILs and display the result in the command tray.
 
 ## About
 
